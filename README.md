@@ -1,8 +1,8 @@
-# SC-500 Lab 06 — AI Runtime Threat Protection with Microsoft Defender for Cloud
+# SC-500 Lab 06 - AI Runtime Threat Protection with Microsoft Defender for Cloud
 
-![SC-500 Lab 06 Banner](banner.png)
+![SC-500 Lab 06 Banner](Architecture/banner.png)
 
-> **Engineer-Level Cloud & AI Security Lab**
+> ** Cloud & AI Security Lab**
 >
 > Microsoft Foundry · GPT-5.6-Luna · Microsoft Defender for Cloud · AI Discovery · AI Threat Detection · Runtime Monitoring · Security Validation
 
@@ -147,7 +147,7 @@ Data security for AI interactions was intentionally left disabled because it inv
 
 ### Evidence
 
-![AI Services Settings](../Evidence/02-ai-services-settings.png)
+![AI Services Settings](/Evidence/02-ai-services-settings.png)
 
 ---
 
@@ -159,11 +159,11 @@ The model was selected from the available project models and deployed using the 
 
 ### Evidence
 
-![Foundry Resource Created](../Evidence/22-foundry-ai-runtime-resource-created.png)
+![Foundry Resource Created](/Evidence/22-foundry-ai-runtime-resource-created.png)
 
-![GPT-5.6-Luna Model](../Evidence/24-gpt56-luna-model-selection.png)
+![GPT-5.6-Luna Model](/Evidence/24-gpt56-luna-model-selection.png)
 
-![Default Deployment](../Evidence/26-gpt56-luna-default-deployment-settings.png)
+![Default Deployment](/Evidence/26-gpt56-luna-default-deployment-settings.png)
 
 ---
 
@@ -194,7 +194,7 @@ This keeps the lab evidence reproducible and technically honest.
 
 ### Evidence
 
-![Controlled Runtime Test](../Evidence/27-eastus-gpt56-luna-controlled-runtime-test.png)
+![Controlled Runtime Test](/Evidence/27-eastus-gpt56-luna-controlled-runtime-test.png)
 
 ---
 
@@ -214,7 +214,7 @@ This establishes that the AI workload was not merely provisioned — it was actu
 
 ### Evidence
 
-![Runtime Monitoring](../Evidence/28-eastus-gpt56-luna-runtime-monitoring.png)
+![Runtime Monitoring](/Evidence/28-eastus-gpt56-luna-runtime-monitoring.png)
 
 ---
 
@@ -233,9 +233,9 @@ This demonstrates **AI workload inventory and control-plane visibility**.
 
 ### Evidence
 
-![AI Discovery](../Evidence/34-ai-discovery-eastus-foundry-runtime-resource.png)
+![AI Discovery](/Evidence/34-ai-discovery-eastus-foundry-runtime-resource.png)
 
-![Foundry Project Discovery](../Evidence/36-eastus-foundry-project-discovery-details.png)
+![Foundry Project Discovery](/Evidence/36-eastus-foundry-project-discovery-details.png)
 
 ---
 
@@ -257,9 +257,9 @@ This is useful from a security engineering perspective because model inventory a
 
 ### Evidence
 
-![AI Model and Endpoint Discovery](../Evidence/37-ai-model-endpoint-gpt56-luna-discovery.png)
+![AI Model and Endpoint Discovery](/Evidence/37-ai-model-endpoint-gpt56-luna-discovery.png)
 
-![Model Runtime Relationship](../Evidence/38-gpt56-luna-model-runtime-relationship.png)
+![Model Runtime Relationship](/Evidence/38-gpt56-luna-model-runtime-relationship.png)
 
 ---
 
@@ -286,7 +286,7 @@ This is an observed platform state and therefore becomes a **coverage/validation
 
 ### Evidence
 
-![AI Threat Detection Final State](../Evidence/39-data-ai-security-eastus-runtime-final-state.png)
+![AI Threat Detection Final State](/Evidence/39-data-ai-security-eastus-runtime-final-state.png)
 
 ---
 
@@ -308,7 +308,7 @@ The subscription filter displayed by the portal may appear as `N/A` due to the p
 
 ### Evidence
 
-![AI Security Alerts](../Evidence/32-ai-security-alerts-no-alerts.png)
+![AI Security Alerts](/Evidence/32-ai-security-alerts-no-alerts.png)
 
 ---
 
@@ -333,7 +333,7 @@ The lab therefore treats **Partial** as a coverage finding that should be invest
 
 ### Evidence
 
-![AI Services Partial Coverage](../Evidence/19-ai-services-partial-coverage.png)
+![AI Services Partial Coverage](/Evidence/19-ai-services-partial-coverage.png)
 
 ---
 
