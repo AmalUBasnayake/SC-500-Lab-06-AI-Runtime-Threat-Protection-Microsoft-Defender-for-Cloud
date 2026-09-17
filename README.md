@@ -2,7 +2,7 @@
 
 ![SC-500 Lab 06 Banner](Architecture/banner.png)
 
-> ** Cloud & AI Security Lab**
+#  Cloud & AI Security Lab
 >
 > Microsoft Foundry · GPT-5.6-Luna · Microsoft Defender for Cloud · AI Discovery · AI Threat Detection · Runtime Monitoring · Security Validation
 
