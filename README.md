@@ -65,48 +65,8 @@ This distinction is important: **workload discovery, runtime telemetry, and thre
 
 ### Logical security flow
 
-```text
-                    ┌─────────────────────────────┐
-                    │       User / Tester         │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │     Microsoft Foundry       │
-                    │  foundry-sc500-ai-runtime   │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │       Foundry Project        │
-                    │        proj-default          │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │       GPT-5.6-Luna          │
-                    │       Global Standard        │
-                    └──────────────┬──────────────┘
-                                   │
-                         Controlled Runtime
-                             Interaction
-                                   │
-                    ┌──────────────┴──────────────┐
-                    │                             │
-                    ▼                             ▼
-        ┌─────────────────────┐       ┌─────────────────────────┐
-        │ Foundry Monitoring  │       │ Defender for Cloud      │
-        │ Runtime Telemetry   │       │ AI Security Controls    │
-        └──────────┬──────────┘       └────────────┬────────────┘
-                   │                               │
-                   │                               ├─ AI Discovery
-                   │                               ├─ Model Discovery
-                   │                               ├─ AI Threat Detection
-                   │                               └─ Security Alerts
-                   │
-                   ▼
-        Requests / Tokens / Cost
-```
+![Lab 06 Logical security flowe](Architecture/security-workflow.png)
+
 
 ---
 
